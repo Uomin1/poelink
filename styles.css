@@ -1,0 +1,67 @@
+body {
+    background-color: #1b1b32;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #0b0b1b;
+    padding: 20px;
+    text-align: center;
+    /* Centraliza o título */
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #3e3e6e;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    width: 100%;
+    /* Todos os botões terão o mesmo tamanho */
+    max-width: 300px;
+    /* Largura máxima para evitar que fiquem muito largos em telas maiores */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+.button:hover {
+    background-color: #5a4911;
+}
+
+.button:hover,
+.button:active {
+    text-decoration: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
